@@ -6,15 +6,12 @@ const bodyParser = require('body-parser');
 const expressHandlebars = require('express-handlebars');
 const flash = require('connect-flash');
 const session = require('express-session');
-const mongoose = require('mongoose')
-const passport = require('passport')
+const mongoose = require('mongoose');
+const passport = require('passport');
  
-require('./config/passport');
-
-
 //Database connection
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://localhost:27017/site-auth');
+mongoose.connect('mongodb://localhost:27017/shopTalk');
 
 const app = express();
 app.use(morgan('dev'));

@@ -1,0 +1,37 @@
+{
+  "name": "ShopTalk",
+  "version": "1.0.0",
+  "description": "It's a web application based on shopping on different items which helps to order items , add to the cart and pay for the item you bought.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kavinda-Senarathne/ShopTalk.git"
+  },
+  "keywords": [],
+  "author": "Kavinda Senarathne",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kavinda-Senarathne/ShopTalk/issues"
+  },
+  "homepage": "https://github.com/Kavinda-Senarathne/ShopTalk#readme",
+  "dependencies": {
+    "npm": "^6.4.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.17.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "express-handlebars": "^3.0.0",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.2",
+    "joi": "^13.0.1",
+    "mongoose": "^4.11.12",
+    "morgan": "^1.8.1",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {}
+}

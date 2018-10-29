@@ -26,12 +26,12 @@ class Home extends Component {
     return (
         <Card className={classes.card}>
           <Typography type="headline" component="h2" className={classes.title}>
-            Home Page
+            Dash board
           </Typography>
           <CardMedia className={classes.media} image={seashellImg} title="Unicorn Shells"/>
           <CardContent>
             <Typography type="body1" component="p">
-              Welcome to the MERN Skeleton home page.
+              Welcome to ShopTalk home page.
             </Typography>
           </CardContent>
         </Card>

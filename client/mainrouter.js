@@ -32,3 +32,5 @@ class MainRouter extends Component {
     </div>)
   }
 }
+
+export default MainRouter

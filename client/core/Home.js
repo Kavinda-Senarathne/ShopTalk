@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 import {withStyles} from 'material-ui/styles'
 import Card, {CardContent, CardMedia} from 'material-ui/Card'
 import Typography from 'material-ui/Typography'
-import seashellImg from './../assets/images/seashell.jpg'
+import shoppingImg from './../assets/images/shopping.jpg'
 
 const styles = theme => ({
   card: {
@@ -28,10 +28,10 @@ class Home extends Component {
           <Typography type="headline" component="h2" className={classes.title}>
             Dash board
           </Typography>
-          <CardMedia className={classes.media} image={seashellImg} title="Unicorn Shells"/>
+          <CardMedia className={classes.media} image={shoppingImg} title="Shopping"/>
           <CardContent>
             <Typography type="body1" component="p">
-              Welcome to ShopTalk home page.
+             <h2><center> Welcome to ShopTalk home page. </center></h2>
             </Typography>
           </CardContent>
         </Card>

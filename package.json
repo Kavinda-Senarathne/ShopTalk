@@ -1,9 +1,9 @@
 {
   "name": "ShopTalk",
   "version": "1.0.0",
-  "description": "A MERN stack skeleton web application",
+  "description": "ShopTalk is a web application for shopping",
   "author": "Shama Hoque",
-  "license": "MIT",
+  "license": " ",
   "keywords": [
     "react",
     "express",

@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "ShopTalk is a web application for shopping",
   "author": "Shama Hoque",
-  "license": " ",
+  "license": "MIT",
   "keywords": [
     "react",
     "express",
